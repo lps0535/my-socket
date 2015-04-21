@@ -1,10 +1,9 @@
 """
-    @TODO: Update this.
-    Tests parse functions used in screenshot directive.
+    Tests send and recieve message functionalities provided by my_socket.
 
-    Usage: Run `nosetests tests/test_parse_commands.py` to run just this file or
+    Usage: Run `nosetests tests/test_sockets.py` to run just this file or
     `nosetests tests` to run all tests from files inside 'tests' directory.
-    Either of the two commands must be run from the 'sphinx-docs' directory.
+    Either of the two commands must be run from the 'my-socket' directory.
 """
 
 from nose.tools import assert_equal, raises, with_setup
